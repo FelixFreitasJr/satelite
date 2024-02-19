@@ -40,6 +40,12 @@ Aqui está um trecho do código CSS:
 }
 ```
 
+## Visualizar Projeto
+
+Você pode visualizar o projeto ao vivo aqui.
+
+https://felixfreitasjr.github.io/satelite/
+
 ## Contato
 
 Se você tiver alguma dúvida ou sugestão sobre este projeto, sinta-se à vontade para me enviar uma mensagem.
