@@ -1,51 +1,62 @@
 # Projeto Satélite
 
-Este é um projeto que criei para praticar meus conhecimentos em CSS. O projeto foi inspirado por um vídeo que vi no TikTok e decidi replicá-lo até conseguir fazer sozinho. O resultado é uma representação de um satélite orbitando um planeta.
+Experimento visual com HTML e CSS para animar um satélite orbitando um planeta. Projeto feito para praticar design, animação e responsividade.
 
-## Sobre o Projeto
+## 🚀 Sobre o Projeto
 
-O projeto "Satélite" é um site simples que fiz para praticar minhas habilidades em CSS. Ele apresenta um design limpo e moderno, com animações suaves e responsivas que representam um satélite orbitando um planeta.
+O "Satélite" é um site simples criado para aprimorar meus conhecimentos em CSS. A inspiração veio de um vídeo no TikTok. O desafio foi replicar a animação sozinho, focando em técnicas modernas de CSS e design responsivo.
 
-## Tecnologias Utilizadas
+## ✨ Tecnologias Utilizadas
 
-- HTML
-- CSS
+- HTML5
+- CSS3
 
-## Como Usar
+## 🌀 Funcionalidade
 
-Para usar este projeto, você pode clonar o repositório e abrir o arquivo `index.html` no seu navegador.
+- Animação visual: satélite orbitando um planeta
+- Design limpo e moderno
+- Responsivo (funciona em vários dispositivos)
 
-## Código
+## 👀 Visualize Online
 
-O projeto é composto principalmente de CSS, com um pouco de HTML para a estrutura básica. O CSS é usado para criar a animação do satélite orbitando o planeta.
+Acesse o projeto ao vivo:  
+[https://felixfreitasjr.github.io/satelite/](https://felixfreitasjr.github.io/satelite/)
 
-Aqui está um trecho do código CSS:
+## 🛠 Como Usar
+
+1. Clone este repositório:
+   ```bash
+   git clone https://github.com/FelixFreitasJr/satelite.git
+   ```
+2. Abra o arquivo `index.html` no seu navegador.
+
+## 📄 Exemplo de Código
 
 ```css
-.planet{
-	width:30em;
-	height:30em;
-	background:white;
-	border-radius: 50%;
-	box-shadow:0 0 5em 0 #fed84c80, 0 0 20em 4em #e8a55233, 0 0 55em 8em #ff4ff1a;
-	position:relative;
+.planet {
+  width: 30em;
+  height: 30em;
+  background: white;
+  border-radius: 50%;
+  box-shadow: 0 0 5em 0 #fed84c80, 0 0 20em 4em #e8a55233, 0 0 55em 8em #ff4ff1a;
+  position: relative;
 }
-
-.satellite, .satellite::after{
-	content:"";
-	position:absolute;
-	width:5em;
-	height:5em;
-	border-radius:50%;
+.satellite, .satellite::after {
+  content: "";
+  position: absolute;
+  width: 5em;
+  height: 5em;
+  border-radius: 50%;
 }
 ```
 
-## Visualizar Projeto
+## 📬 Contato
 
-Você pode visualizar o projeto ao vivo aqui.
+Fique à vontade para sugerir melhorias ou tirar dúvidas:
 
-https://felixfreitasjr.github.io/satelite/
+- [GitHub](https://github.com/FelixFreitasJr)
+- [LinkedIn](https://www.linkedin.com/in/seu-linkedin) <!-- Substitua pelo seu LinkedIn -->
 
-## Contato
+---
 
-Se você tiver alguma dúvida ou sugestão sobre este projeto, sinta-se à vontade para me enviar uma mensagem.
+Feito com 💫 por **Felix Freitas Jr**
